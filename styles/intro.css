@@ -1,0 +1,48 @@
+.intro_container {
+    display: flex;
+    align-items: center;
+    margin-top: 12rem;
+    justify-content: space-evenly;
+  }
+  
+  
+  .typewriter {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    white-space: nowrap;
+    margin: 0.75rem 0;
+    animation:
+      typing 2.5s steps(40, end) forwards;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+    to {
+      width: 100%
+    }
+  }
+  
+  .card {
+    padding: 1rem;
+    border-radius: 0.75rem;
+    width: 30%;
+    color: white;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .intro_container {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  
+    .card {
+      margin-top: 1rem;
+      width: 80%;
+    }
+  
+    .text_big {
+      font-size: 2rem;
+    }
+  }

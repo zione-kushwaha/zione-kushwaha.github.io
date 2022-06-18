@@ -1,0 +1,11 @@
+.footer_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer_container p {
+    align-self: center;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}

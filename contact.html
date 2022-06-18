@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/globals.css" rel="stylesheet" />
+    <link href="styles/nav.css" rel="stylesheet" />
+    <link href="styles/footer.css" rel="stylesheet" />
+    <title>Portfolio</title>
+    <style>
+        footer {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+        }
+        #contact_success {
+            height: calc(100vh - 56px - 60px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav_container">
+        <div class="nav_items">
+            <a href="#" class="logo">
+                <img src='images/avatar-male.svg' width=30 height=30 />
+            </a>
+            <div style="display: flex; align-items: center;">
+                <ul class="nav_List_items">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <p class="cta_button">Hire Me</p>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="contact_success">
+            <p>Thanks for your valuable response.<br />We will reach you soon.</p>
+            <a href="index.html">
+                <button class="button">Back to Homepage</button>
+
+            </a>
+        </div>
+    </main>
+    <footer class="footer_container">
+        <p>&copy 2022 Designed and Developed by Jeevan kumar kushwaha</p>
+    </footer>
+</body>
+
+</html>

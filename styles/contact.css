@@ -1,0 +1,31 @@
+.form_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+input[type="text"], input[type="email"], textarea {
+    background-color: #F4F6FC;
+    border-radius: 1rem;
+    border: none;
+    width: 50vw;
+    height: 3rem;
+    padding: 0 1rem;
+    margin: 0.8rem auto;
+}
+input:focus, textarea:focus {
+    outline: 2px solid #3B38E8;
+}
+textarea {
+    padding: 1rem;
+}
+label {
+    color: #2845A2;
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    input[type="text"], input[type="email"], textarea {
+       width: 80vw;
+    }
+}
